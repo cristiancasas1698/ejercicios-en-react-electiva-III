@@ -5,6 +5,9 @@ const variblesconstante = 'variables durante la ejecucion';
 let variablelocal = 'ABC';
 let variablenumerico = 123456;
 
+
+
+
 console.log('variable de alcance global 1.' + variableglobal);
 console.log('constante' + variblesconstante);
 
