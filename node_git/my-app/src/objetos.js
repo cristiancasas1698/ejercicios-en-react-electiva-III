@@ -95,3 +95,19 @@ var libro = {
 let objeto = Object.create(libro);
 
 objeto.presentacion();
+
+let numero = 5;
+let primo = true;
+for (let i = 0; i < numero; i++) {
+    if (numero % i == 0) {
+        primo = false;
+        break;
+    }
+    
+}
+if (primo) {
+    console.log('el numero: '+ numero + ' es primo');
+}else{
+    console.log('el numero: '+ numero + ' no es primo');
+}
+

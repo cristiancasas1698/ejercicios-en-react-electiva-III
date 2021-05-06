@@ -58,7 +58,7 @@ const vehiculo =  {
               if (this.cantidad_combustible < kilometros_recorrido) {
                     console.log('SE HA AGOTADO LA GASOLINA DEBIDO A QUE EL VEHICULO TENIA CAPACIDAD PARA RECORRER: '+ this.cantidad_combustible + 'KM \n '+
                     'POR LO CUAL SE RECORRIO: ' + this.cantidad_combustible +'KM \n' +
-                    'DE LOS '+ kilometros_recorrido +' KM QUE SE TENIAN PLANEADO' );
+                    'DE LOS '+ kilometros_recorrido +' KM QUE SE TENIAN PLANEADO \n');
                     console.log('------------------------------------------');
               }else if(this.cantidad_combustible == 0){
                 console.log('EL TANQUE DEL VEHICULO NO TIENE GASOLINA');
@@ -87,4 +87,6 @@ objeto.llenar_tanque();
 objeto.encender();
 objeto.acelerar();
 objeto.apagar()
+
  
+       
